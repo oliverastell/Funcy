@@ -7,7 +7,7 @@
 # It is completely static and cannot be modified.
 # It is returned when using the import function.
 
-# Directories are arranged like this:
+# Packages are arranged like this:
 #   {ident: VALUE, ident: VALUE, ...}
 
 {
@@ -20,7 +20,7 @@
   #   that null and return the tuple with just
   #   pi and tau.
 
-  last_test: 
+  last_test:
       ("A", "B", "C")[-1]
   # If you only intend to use one of the values,
   #   you can just index the value you want.

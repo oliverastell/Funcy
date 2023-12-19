@@ -18,7 +18,6 @@ class UnknownToken(private val position: Position) : Error {
     }
 }
 
-
 // Parser
 class UnexpectedToken(private val position: Position) : Error {
     override fun represent(): String {
